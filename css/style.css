@@ -8,8 +8,6 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 
 * {  	
@@ -22,6 +20,25 @@
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 15px;
     margin-top: 10px;
+}
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: -1.7%;
+}
+
+ul {
+    margin-top: -4.2%;
+    margin-left: 64%;
+}
+
+ul li {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 1.7rem;
+    padding-left: 3%;
 }
