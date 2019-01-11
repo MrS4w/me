@@ -1,6 +1,6 @@
 .container {
     margin: 1em auto;  	
-    width: 940px;
+    width: 100%;
 }
 
 .row {
@@ -27,9 +27,9 @@ footer {
 .navigation {
     background-image: repeating-linear-gradient(rgb(10, 1, 32), rgb(0, 15, 11));
     color: #fff;
-    padding: 18px;
-    margin-top: -1%;
-    margin-bottom: -16px;
+    /* padding: 18px; */
+    margin-top: -16px;
+    /* margin-bottom: -16px; */
 }
 
 ul li:active {
@@ -37,20 +37,28 @@ ul li:active {
 }
 
 ul {
-    margin-top: -4.2%;
-    margin-left: 64%;
-    margin-right: -19%;
+    margin-top: 5px;
+    /* margin-left: 64%; */
+    /* margin-right: -19%; */
+    text-align: center;
 }
 
 ul li {
-    display: inline-flex;
+    /* display: inline-flex; */
     list-style-type: none;
-    font-size: 1.7rem;
-    margin-left: 3%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #B07219;
+    /* margin-left: 3%; */
+}
+
+h1,
+h2,
+p {
+    text-align: center;
 }
 
 h2 {
-    text-align: center;
     font-size: 2.3rem;
     font-style: oblique;
 }
@@ -58,7 +66,16 @@ h2 {
 figure img {
     margin-top: 2%;
     border-radius: 50%;
-    margin-left: 37.1%;
+    margin-left: 25%;
+    width: 55%;
+    height: 45%;
+    align-self: center;
+}
+
+p {
+    padding-left: 33px;
+    padding-right: 33px;
+    font-size: 1.3rem;
 }
 
 body {
