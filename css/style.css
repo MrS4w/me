@@ -14,7 +14,6 @@
 	margin: 0;  	
     padding: 0;  	
     font-family: Calibri, sans-serif;
-    box-sizing: border-box;
 } 
 
 footer {
@@ -90,9 +89,6 @@ a {
 }
 
 #about-me {
-    background-color: #fff;
-    margin-left: 8px;
-    margin-right: 8px;
     margin-top: 9px;
     padding-top: 2px;
     padding-bottom: 10px;
@@ -101,10 +97,14 @@ a {
 
 #skills {
     padding-top: 10px;
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
+}
+
+#about-me,
+#skills {
     background-color: #fff;
     margin-left: 8px;
     margin-right: 8px;
-    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .col {
@@ -125,11 +125,7 @@ a {
     width: 100%;
 }
 
-table, th {
-    text-align: center;
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px) {
     .col {
         width: 50%;
     }
@@ -162,5 +158,55 @@ table, th {
 
     #about-me {
         clip-path: polygon(0 0, 100% 0, 100% 97.3%, 0% 100%);
+    }
+}
+
+@media (min-width: 1024px){
+    .col {
+        width: 25%;
+    }
+
+    table {
+        margin-left: 50%;
+    }
+
+    ul {
+        margin-top: -5%;
+        margin-left: 70%;
+        padding-bottom: 13px;
+    }
+
+    ul li {
+        display: inline-flex;
+        font-size: 1.7rem;
+        margin-left: 5%;
+    }
+
+    h1 {
+        padding-bottom: -21%;
+        margin-right: 64%;
+    }
+
+    .about-me-photo {
+        width: 18%;
+        margin-left: 39.5%;
+    }
+
+    .container {
+        width: 940px;
+    }
+
+    #about-me {
+        clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+    }
+
+    #skills {
+        clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #about-me,
+    #skills {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
