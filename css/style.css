@@ -96,7 +96,7 @@ a {
     margin-top: 9px;
     padding-top: 2px;
     padding-bottom: 10px;
-    clip-path: polygon(0 17px, 100% 0, 100% 96%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
 }
 
 #skills {
@@ -117,10 +117,50 @@ a {
     width: 45%;
 }
 
+.social-media {
+    text-align: center;
+}
+
 .social-media img {
     width: 100%;
 }
 
 table, th {
     text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .col {
+        width: 50%;
+    }
+
+    table {
+        margin-left: 25%;
+    }
+
+    ul {
+        margin-top: -6%;
+        margin-left: 70%;
+        padding-bottom: 13px;
+    }
+
+    ul li {
+        display: inline-flex;
+        font-size: 1.7rem;
+        margin-left: 5%;
+    }
+
+    h1 {
+        padding-bottom: -21%;
+        margin-right: 64%;
+    }
+
+    .about-me-photo {
+        width: 28%;
+        margin-left: 37.5%;
+    }
+
+    #about-me {
+        clip-path: polygon(0 0, 100% 0, 100% 97.3%, 0% 100%);
+    }
 }
