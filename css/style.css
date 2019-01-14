@@ -1,5 +1,10 @@
 .container {
     margin: 1em auto;  	
+}
+
+.col,
+.container,
+.social-media img {
     width: 100%;
 }
 
@@ -107,10 +112,6 @@ a {
     margin-right: 8px;
 }
 
-.col {
-    width: 100%;
-}
-
 .skill-photo {
     margin-top: 2%;
     margin-left: 30%;
@@ -119,10 +120,6 @@ a {
 
 .social-media {
     text-align: center;
-}
-
-.social-media img {
-    width: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
