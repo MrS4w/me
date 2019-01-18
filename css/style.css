@@ -127,13 +127,23 @@ a {
     width: 45%;
 }
 
+.social-media {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.social-media img {
+    width: 100%;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .col {
         width: 50%;
     }
 
-    table {
-        margin-left: 25%;
+    .social-media img {
+        width: 50%;
     }
 
     ul {
@@ -168,8 +178,8 @@ a {
         width: 25%;
     }
 
-    table {
-        margin-left: 50%;
+    .social-media img {
+        width: 50%;
     }
 
     ul {
