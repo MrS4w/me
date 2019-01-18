@@ -21,8 +21,13 @@
     font-family: Calibri, sans-serif;
 } 
 
+figure img {
+    transition: 1.5s;
+}
+
 figure img:hover {
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
 footer {
@@ -36,9 +41,6 @@ header {
     background-image: linear-gradient(#455a64 , #000);
     padding: 2px;
     color: #fff;
-}
-
-nav {
     border-bottom: solid 2px #000;
 }
 
