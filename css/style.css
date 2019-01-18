@@ -21,6 +21,10 @@
     font-family: Calibri, sans-serif;
 } 
 
+figure img:hover {
+    transform: scale(1.1);
+}
+
 footer {
     background-image: linear-gradient(rgb(212, 192, 195), rgb(0, 15, 11));
     padding: 15px;
