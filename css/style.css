@@ -130,9 +130,9 @@ a {
 }
 
 .social-media {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    text-align: center;
 }
 
 .social-media img {
@@ -142,6 +142,10 @@ a {
 @media (min-width: 768px) and (max-width: 1023px) {
     .col {
         width: 50%;
+    }
+
+    .social-media {
+        padding: 0 25%;
     }
 
     .social-media img {
@@ -178,6 +182,10 @@ a {
 @media (min-width: 1024px){
     .col {
         width: 25%;
+    }
+
+    .social-media {
+        padding: 0 25%;
     }
 
     .social-media img {
